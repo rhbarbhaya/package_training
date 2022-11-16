@@ -1,6 +1,0 @@
-
-[testing]
-pytest
-pytest-cov
-pylint
-mypy
