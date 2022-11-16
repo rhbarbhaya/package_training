@@ -1,5 +1,6 @@
 """Simple mathematical functions to test the packaging functions."""
 
+
 def add(
     number1: int | float = 0,
     number2: int | float = 0,
@@ -12,7 +13,7 @@ def add(
     :type number2: int | float, optional
     :return: Sum of two arugments in the function
     :rtype: int | float
-    
+
     >>> add(2, 3)
     5
     >>> add(2.3, 7.7)
@@ -20,25 +21,29 @@ def add(
     """
     return number1 + number2
 
+
 def sub(
     number1: int | float = 0,
     number2: int | float = 0,
 ) -> int | float:
     """Gets the difference between first number to the second number
 
-    :param number1: First number from which the second number will be subtracted, defaults to 0
+    :param number1: First number from which the second number will
+        be subtracted, defaults to 0
     :type number1: int | float, optional
-    :param number2: Second number that to reduce the first number by, defaults to 0
+    :param number2: Second number that to reduce the first number by,
+        defaults to 0
     :type number2: int | float, optional
     :return: Subtraction of two numbers
     :rtype: int | float
-    
+
     >>> sub(8, 2)
     6
     >>> sub(7.2, 3.1)
     4.1
     """
     return number1 - number2
+
 
 def multiply(
     number1: int | float = 0,
@@ -52,13 +57,14 @@ def multiply(
     :type number2: int | float, optional
     :return: Multiplication of two numbers
     :rtype: int | float
-    
+
     >>> multiply(4, 9)
     36
     >>> multiply(2.3, 8.2)
-    18.86    
+    18.86
     """
     return number1 * number2
+
 
 def divide(
     divident: int | float = 1,
@@ -70,7 +76,8 @@ def divide(
     :type divident: int | float, optional
     :param divisor: The number that will be the divsor, defaults to 1
     :type divisor: int | float, optional
-    :raises ZeroDivisionError: If the number is divided by 0, it creates a mathematic error and therefore raises an error
+    :raises ZeroDivisionError: If the number is divided by 0,
+        it creates a mathematic error and therefore raises an error
     :return: divident / divisor
     :rtype: int | float
     """

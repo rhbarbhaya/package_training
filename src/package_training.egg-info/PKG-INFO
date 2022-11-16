@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: package-training
+Version: 0.0.1
+Summary: Packaging setup and content for deployment
+Author: Rushabh Barbhaya
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Provides-Extra: testing
